@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Product page</title>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="container">
+      <header id="header">
+        <div id="logo">
+          <img
+            id="header-img"
+            src="http://simpsonsfishandchips.com/wp-content/uploads/2017/10/Squid.png"
+            />
+        </div>
+        <h1>SQUID SWAP</h1>
+        <nav id="nav-bar">
+          <ul>
+            <li><a href="#what" class="nav-link">#what is it</a></li>
+            <li><a href="#why" class="nav-link">#how it works</a></li>
+            <li><a href="#pricing" class="nav-link">#pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div id="main-container">
+          <div id="left-content"></div>
+          <div id="center-content">
+            <h3 id="product">Squid exchange service</h3>
+            <img
+              id="header-img"
+              src="https://vignette.wikia.nocookie.net/hungryshark-fanon/images/9/9c/Giant_Squid_.png/revision/latest?cb=20180314024942"
+            />
+            <section>
+              <a id="what"></a>
+              <div class="icon">i</div>
+              <h3>Exchange your squid</h3>
+              <p>
+                Are you tired of looking at the same squid? No problem.<br /><br />
+                Squid Swap is the new hassle-free platform for exchanging squid
+                safely, securely, and above all, discreetly.<br /><br />
+              </p>
+            </section>
+            <section>
+              <a id="why"></a>
+              <div class="icon" id="icon-why">?</div>
+              <h3>How it works</h3>
+              <p>
+                Simply text us the name and serial number of your squid, and
+                within minutes we'll enter it into our database of eleven other
+                squids, match it up, and send you a new squid - with either the
+                same number of tentacles, or a different number.<br /><br />
+                But don't let me convince you, check out this incredibly
+                relevant video:
+              </p>
+              <iframe
+                id="video"
+                width="400"
+                height="260"
+                src="https://www.youtube.com/embed/A9hwx-yn6-k"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
+            </section>
+            <section>
+              <a id="pricing"></a>
+              <div class="icon" id="icon-pricing">£</div>
+              <h3>Pricing</h3>
+
+              <div id="products">
+                <div class="card" id="reef">
+                  <h4 class="card-title">Coral Reef Package</h4>
+
+                  <h5>£299 per year</h5>
+                  <ul>
+                    <li>Includes:</li>
+                    <li>&nbsp;</li>
+                    <li>1 squid swap</li>
+                    <li>Siren song insurance</li>
+                    <li>Chance of Cthulu: 0%</li>
+                  </ul>
+                  <button class="select">SELECT</button>
+                </div>
+                <div class="card" id="deep-sea">
+                  <h4 class="card-title">Deep Sea Package</h4>
+                  <h5>£499 per year</h5>
+                  <ul>
+                    <li>Includes:</li>
+                    <li>&nbsp;</li>
+                    <li>3 squid swaps</li>
+                    <li>Squid plush toy</li>
+                    <li>Chance of Cthulu: 0.01%</li>
+                  </ul>
+                  <button class="select">SELECT</button>
+                </div>
+              </div>
+              <p>
+                You can also try our 100-year free trial, and if you don't like it,
+                no problem. We'll just put all our squid in your bathroom and
+                see what you'll do then.<br /><br />
+                Interested? Sign up below and we'll send one of our agents to
+                track you down.
+              </p>
+            </section>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <label for="inp" class="inp">
+                <input
+                  name="email"
+                  type="email"
+                  id="inp"
+                  class="input"
+                  autocomplete="off"
+                  placeholder="&nbsp"
+                  required
+                  >
+                <span class="label">Email address</span>
+                <span class="border"></span>
+              </label>
+              <input
+                id="submit"
+                type="submit"
+                value="Squid Swap me"
+                class="btn"
+                />
+            </form>
+            <img 
+            id="bottom-squid"
+            src="https://www.pottonandburton.co.nz/wp-content/uploads/2015/10/giant-squid-300x237.png"
+            />
+          </div>
+          <div id="right-content"></div>
+        </div>
+      </main>
+
+      <footer>
+        <div id="tech">
+          <p>this static fcc product page was created using:</p>
+          <ul></ul>
+            <li>css grid </li>
+            <li>css flexbox</li>
+            <li>responsive web design - shrink the page!</li>
+          </ul>
+        </div>
+        <p>Marco Burman © 2019</p>
+      </footer>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
